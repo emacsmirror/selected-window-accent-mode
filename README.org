@@ -18,6 +18,21 @@ See [[file:docs/selected-window-accent-mode.org]] for the manual!
 
 * Whats New
 
+** v2.2.1 <2025-12-05>
+
+Bug fixes and improvements:
+
+- Removed obsolete transient dependency from Package-Requires
+- Added configurable Pywal color selection (=selected-window-accent-pywal-color=)
+- Added robust error handling for Pywal JSON parsing
+- Added automatic refresh on customization changes (=:set= handlers)
+- Added user feedback messages to toggle functions
+- Improved all function docstrings with detailed explanations
+- Added future Emacs 31 header-line-active/inactive face support check function
+- Fixed minor typos in customization group names
+
+This release focuses on reliability improvements and better user experience, particularly fixing an issue where colored fringes would persist on non-selected windows in tiling mode.
+
 ** v2.2.0 <2025-04-23>
 
 Added back in Pywal color support
